@@ -1,1 +1,91 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://media.istockphoto.com/id/1207910591/es/foto/mesa-de-p%C3%B3quer-verde.jpg?s=612x612&w=0&k=20&c=LuUjhaMTjujmXlA_0PyN6zwJ9cpsq3M0SuyU0H4ZYA4=");
+  background-size: 100%;
+}
+
+.card {
+  width: 350px;
+  height: 550px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 8px 3px 15px black;
+  position: relative;
+}
+
+.heart,
+.diamond {
+  color: red;
+  font-size: 20vh;
+  margin: 0 10px;
+}
+
+.spade,
+.club {
+  font-size: 120px;
+  margin: 0 10px;
+}
+
+.icon-footer {
+  transform: rotate(180deg);
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+}
+
+.posicion {
+  position: relative;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.generador,
+.aleatorio,
+.finalizador {
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  border: none;
+}
+
+.generador {
+  background: yellow;
+  color: rgb(10, 66, 10);
+  font-weight: bold;
+  box-shadow: -3px 1px 4px rgb(236, 232, 232, 0.8);
+}
+
+.aleatorio {
+  background: red;
+  font-weight: bold;
+  box-shadow: -3px 1px 4px rgba(236, 232, 232, 0.8);
+}
+
+.finalizador {
+  background: rgba(6, 29, 160, 0.805);
+  color: rgb(230, 230, 51);
+  font-weight: bold;
+  box-shadow: -3px 1px 4px rgb(236, 232, 232, 0.8);
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
